@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 
   return (
     <div className='bg-[#17043E] h-screen w-full py-8 overflow-x-hidden relative flex flex-col text-center items-center justify-center text-white'>
-      <header className='space-y-5 z-20 pt-[25px] lg:pt-0 px-5 lg:px-0'>
+      <header className='space-y-5 z-20 pt-[100px] lg:pt-0 px-5 lg:px-0'>
         
         <div className='mx-auto mb-10 z-20 w-[50%] lg:w-[100%]'>
           <Image src={solprojects} alt="sol projects image"/>
