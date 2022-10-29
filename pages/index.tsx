@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <AddressForm handler={addressSubmittedHandler} />
 
         <p className='text-2xl font-bold'>Results:</p>
-        <div className='bg-black/80 z-20 flex flex-row justify-evenly rounded-xl h-[300px]'>
+        <div className='bg-black/20 z-20 flex flex-row justify-evenly rounded-xl h-[300px]'>
         <div className='flex flex-col text-start my-auto font-bold space-y-4 text-xl'>
         <p>{`Address:`}</p>
         <p>{`Balance:`}</p>
