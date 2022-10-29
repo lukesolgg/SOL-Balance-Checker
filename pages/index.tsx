@@ -15,6 +15,7 @@ import planet3 from '../public/planet3.png'
 import shapes1 from '../public/shapes1.png'
 import shapes2 from '../public/shapes2.png'
 import shapes3 from '../public/shapes3.png'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   const [balance, setBalance] = useState(0)
@@ -71,9 +72,9 @@ const Home: NextPage = () => {
         <p>{`${isExecutable ? 'Yes' : 'No'}`}</p>
         </div>
         </div>
-        <p className='text-2xl font-bold cursor-pointer pt-5'>
+        <Link href="https://github.com/lukesolgg/SOL-Balance-Checker"><p className='text-2xl font-bold cursor-pointer pt-5'>
           Check out the source code <span className='bg-gradient-to-br from-[#9945FF] to-[#14F195] text-transparent bg-clip-text'>here</span>
-        </p>
+        </p></Link>
       </header>
       <Image src={planet1} alt="top left planet" className='absolute top-0 left-[-150px] lg:left-[-50px] z-10' />
       <Image src={planet2} alt="bottom right planet" className='absolute bottom-0 right-[-150px] lg:right-[-50px] z-10' />
